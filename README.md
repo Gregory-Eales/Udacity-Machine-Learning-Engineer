@@ -1,2 +1,2 @@
-# Udacity-Machine-Learning-Engineer
+# Udacity-Machine-Learning-Nanodegree
 projects from udacity's machine learning nanodegree

@@ -3,8 +3,8 @@ from physics_sim import PhysicsSim
 
 class Task():
     """Task (environment) that defines the goal and provides feedback to the agent."""
-    def __init__(self, init_pose=(0, 0, 0), init_velocities=(0, 0, 0), 
-        init_angle_velocities=(0, 0, 0), runtime=5., target_pos=(50, 0, 0)):
+    def __init__(self, init_pose=None, init_velocities=None, 
+        init_angle_velocities=None, runtime=5., target_pos=None):
         """Initialize a Task object.
         Params
         ======
